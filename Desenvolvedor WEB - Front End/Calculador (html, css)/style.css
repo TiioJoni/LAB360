@@ -1,0 +1,42 @@
+.cabeça{
+    font-size: x-large;
+    color:chocolate;
+    text-align: center;
+    padding: 60px;
+}
+
+.display{
+    display: grid;
+    grid-template-columns: 415px;
+    grid-template-rows: 100px;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    width: max-content;
+    margin: 5px auto;
+}
+
+.display button{
+    font-size: 65px;
+    color: white;
+    background-color: black;
+}
+
+
+.botoes{
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 5px;
+    width: max-content;
+    margin: 0px auto;
+
+}
+
+.botoes button{
+    font-size: 30px;
+    font-style: oblique;
+    color: black;
+    background-color: gray;
+    font
+}
